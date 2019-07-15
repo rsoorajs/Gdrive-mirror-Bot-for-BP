@@ -157,10 +157,8 @@ def main():
 	dispatcher = updater.dispatcher
 	start_cmd = CommandHandler("start" , start)
 	help_cmd = CommandHandler("help" , help)
-	donate_cmd = CommandHandler("donate" , donate)
 	dispatcher.add_handler(start_cmd)
 	dispatcher.add_handler(help_cmd)
-	dispatcher.add_handler(donate_cmd)
 	if ADMIN_MODULE:
 		extras.add_extra_commands(dispatcher)
 	else:
