@@ -1,7 +1,4 @@
 # GDrive Mirror Bot
-This is a fork from [here](https://github.com/atulkadian/gdrivemirror_bot).
-
-The original bot is up and running [here](https://t.me/gdrivemirror_bot).
 
 ![​](https://telegra.ph/file/6bbe2759c304a5b834ee2.jpg)
 
@@ -19,11 +16,3 @@ The original bot is up and running [here](https://t.me/gdrivemirror_bot).
 - Put your credentials (Bot Token, Client ID, Client secret, Drive folder ID and TG chat id) in `credentials.py` file.
 - Run command `python bot.py`
 - Complete the authentication to generate auth-token.
-
-## Deploy to Heroku
-
-You have to create the auth_token.txt file by runnig the bot on your local machine for the first time.
-Then upload the auth_token.txt file to your git repo and then deploy it to heroku.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
